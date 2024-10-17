@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.square {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 50px;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
